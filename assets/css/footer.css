@@ -1,0 +1,56 @@
+.rodape {
+  background: #57290b;
+}
+
+.rodape-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  padding: 20px 40px;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.rodape-conteudo h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ebdacc;
+}
+
+.rodape-conteudo ul {
+  list-style: none;
+}
+
+.rodape-conteudo li {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 22px;
+  color: #ebdacc;
+}
+
+.rodape p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  display: block;
+  color: #ffdab8;
+  border-top: 2px #a76e42 solid;
+  border-radius: 2px;
+  max-width: 1200px;
+}
+
+@media (max-width: 800px) {
+  .rodape-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

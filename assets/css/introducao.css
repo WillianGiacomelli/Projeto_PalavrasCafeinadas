@@ -1,0 +1,74 @@
+.introducao {
+  align-items: center;
+  padding: 20px 40px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/principal1.png");
+  background-size: cover;
+  height: 60vh;
+  background-image: cover;
+  background-repeat: no-repeat;
+}
+
+.introducao h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 4.75rem;
+  word-break: keep-all;
+  max-width: 40%;
+  color: #f0f0f0;
+}
+
+.introducao-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-items: center;
+  align-items: center;
+}
+
+.introducao p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.introducao a {
+  font-size: 18px;
+  line-height: 33px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: ;
+  letter-spacing: 0.03em;
+  color: #f0f0f0;
+  padding: 12px 32px;
+  background: #8f542e;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .introducao h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    max-width: 100%;
+  }
+
+  .introducao img {
+    width: fit-content;
+    height: 10vhS;
+  }
+
+  .introducao p {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    max-width: 100%;
+  }
+}
